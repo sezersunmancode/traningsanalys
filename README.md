@@ -140,13 +140,17 @@ relevanta eftersom AI- och datalösningar ofta körs i molnmiljöer.
 
 ### Microsoft Azure
 
-Microsoft Azure erbjuder certifikat inom bland annat molnteknik,
-data och AI. Ett relevant certifikat är Azure AI Engineer Associate,
-eftersom det fokuserar på att bygga och använda AI-lösningar i Azure.
+Microsoft Azure erbjuder certifieringar inom bland annat molnteknik,
+data och AI. Ett relevant certifikat är Microsoft Certified: Azure AI
+Apps and Agents Developer Associate (AI-103).
+
+Certifieringen fokuserar på att utveckla och distribuera AI-lösningar
+med Python och Microsoft Foundry, inklusive generativ AI och
+AI-agenter.
 
 Kunskaper inom Azure skulle kunna användas för att vidareutveckla
 det här projektet genom att exempelvis lagra träningsdata i molnet,
-automatisera dataanalysen eller skapa en AI-baserad analys ovanpå
+automatisera dataanalysen eller bygga AI-baserade funktioner ovanpå
 den insamlade datan.
 
 ### AWS
