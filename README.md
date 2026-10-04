@@ -227,3 +227,9 @@ och kör notebookens celler från början till slut.
 
 CSV-filen `training_data.csv` ska ligga i samma projektmapp som
 notebooken.
+
+## GitHub
+
+Projektets källkod finns på GitHub:
+
+https://github.com/sezersunmancode/traningsanalys
