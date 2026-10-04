@@ -231,15 +231,44 @@ datahantering, analys och programmeringsstrukturen.
 
 Projektet kräver Python 3 och biblioteket Matplotlib.
 
-Installera biblioteket med:
+### 1. Klona projektet
+
+Klona GitHub-repositoriet med:
+
+`git clone https://github.com/sezersunmancode/traningsanalys.git`
+
+Gå sedan in i projektmappen:
+
+`cd traningsanalys`
+
+### 2. Installera bibliotek
+
+Installera projektets beroenden med:
 
 `pip install -r requirements.txt`
 
-Öppna sedan `main.ipynb` i Jupyter Notebook eller Visual Studio Code
-och kör notebookens celler från början till slut.
+### 3. Starta projektet
 
-CSV-filen `training_data.csv` ska ligga i samma projektmapp som
-notebooken.
+Öppna `main.ipynb` i Jupyter Notebook eller Visual Studio Code.
+
+Kör notebookens celler uppifrån och ned för att:
+
+- läsa in träningsdata från CSV-filen
+- bearbeta och kontrollera datan
+- beräkna träningsvolym
+- analysera träningspassen
+- skapa träningsobjekt med klasser
+- beräkna träningsperiod och träningsfrekvens
+- spara analyserad data
+- skapa visualiseringar med Matplotlib
+
+Projektet använder `training_data.csv` som ursprunglig datakälla.
+
+De genererade resultaten sparas bland annat i:
+
+- `analyserad_traningsdata.csv`
+- `bankpress_utveckling.png`
+- `traningsvolym_per_ovning.png`
 
 ## GitHub
 
