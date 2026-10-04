@@ -95,43 +95,58 @@ presenterats som text eller siffror.
 
 ## Analys
 
-Resultatet visar att träningsdata kan användas för att hitta mönster
-och utveckling över tid. I projektet kunde vi bland annat se vilken
-övning som hade högst träningsvolym och hur Bänkpress utvecklades
-under perioden.
+Resultatet visar att träningsdata kan användas för att hitta mönster,
+jämföra aktiviteter och följa utveckling över tid. I projektet kunde
+vi bland annat se vilken övning som hade högst träningsvolym och hur
+Bänkpress utvecklades under den analyserade perioden.
 
-Detta är relevant inom AI- och datautveckling eftersom mycket av
-arbetet med datadrivna system börjar med att samla in, strukturera,
-bearbeta och analysera data.
+Projektet har en tydlig koppling till AI- och datautveckling eftersom
+datadrivna system ofta behöver flera steg innan en AI-modell kan
+användas. Data behöver samlas in, struktureras, kontrolleras,
+bearbetas och analyseras.
 
-I projektet används Python för att automatisera delar av denna
-process. I stället för att manuellt räkna ut träningsvolym och
-jämföra värden kan programmet göra beräkningarna och presentera
-resultaten i diagram.
+I projektet används Python för att automatisera dessa steg. Programmet
+läser in data från en CSV-fil, omvandlar datatyper, beräknar nya värden,
+hanterar fel och presenterar resultatet visuellt.
 
-Samma princip kan användas i större AI-projekt. Exempelvis kan en
-AI-utvecklare behöva förbereda och analysera stora mängder data innan
-data används för maskininlärning eller andra AI-lösningar.
+Detta liknar delar av det arbete som en AI- eller datautvecklare kan
+behöva göra i ett större system. Exempelvis kan en AI-utvecklare
+behöva förbereda träningsdata innan den används för maskininlärning.
+Om datan är felaktig eller dåligt strukturerad kan det påverka
+resultatet från en framtida AI-modell.
 
-Projektet visar därför flera grundläggande delar som är relevanta
+Projektet visar därför flera grundläggande kompetenser som är relevanta
 för en AI-utvecklare:
 
-- läsa in strukturerad data
+- läsa in och strukturera data
 - kontrollera och omvandla datatyper
 - bearbeta data med Python
-- skapa funktioner för återanvändbar kod
+- skapa återanvändbara funktioner
 - använda objektorienterad programmering
-- hantera fel
+- använda arv mellan klasser
+- hantera fel med `try` och `except`
 - analysera resultat
 - visualisera data
 
-Matplotlib gör det möjligt att presentera resultat visuellt. Det är
-viktigt eftersom diagram kan göra mönster och förändringar enklare
-att upptäcka än enbart rådata.
+Visualiseringarna med Matplotlib gör det enklare att upptäcka mönster
+och förändringar. Stapeldiagrammet gör det möjligt att jämföra
+träningsvolym mellan övningar medan linjediagrammet visar
+viktutvecklingen över tid.
 
-Projektet är inte i sig en AI-modell, men det visar den typ av
-datahantering och analys som ofta behövs som grund för AI- och
-maskininlärningssystem.
+En möjlig vidareutveckling är att samla in betydligt större mängder
+träningsdata och lagra informationen i en databas eller molntjänst.
+Datan skulle då kunna behandlas automatiskt och användas som underlag
+för mer avancerad analys.
+
+På längre sikt skulle projektet kunna kompletteras med
+maskininlärning för att exempelvis identifiera träningsmönster,
+förutsäga utveckling eller ge personliga rekommendationer. En sådan
+lösning skulle dock kräva mer data och noggrann utvärdering för att
+resultaten ska bli tillförlitliga.
+
+Projektet är därför inte en AI-modell i sig, utan ett exempel på den
+datahantering och analys som kan fungera som grund för framtida
+AI-lösningar.
 
 ## Relevanta certifikat
 
