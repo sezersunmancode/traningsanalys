@@ -156,12 +156,21 @@ den insamlade datan.
 ### AWS
 
 AWS är en annan stor molnplattform som används inom data och AI.
-Certifieringar inom AWS kan ge kunskaper om hur data behandlas,
-lagras och används i molnbaserade system.
+Ett relevant certifikat är AWS Certified Machine Learning Engineer –
+Associate.
 
-För projektet skulle AWS-kunskaper exempelvis kunna användas för att
-flytta datalagringen från en lokal CSV-fil till en molntjänst och
-sedan automatisera analysen.
+Certifieringen uppdateras under 2026 till MLA-C02. Den nya versionen
+omfattar bland annat maskininlärning, generativ AI, AI-agenter,
+foundation models och LLM samt molnbaserade AI-lösningar med tjänster
+som Amazon SageMaker AI och Amazon Bedrock.
+
+Kunskaper inom AWS skulle kunna användas för att vidareutveckla det
+här projektet genom att exempelvis flytta datalagringen från en lokal
+CSV-fil till en molntjänst och automatisera dataanalysen.
+
+Det skulle också vara möjligt att senare bygga AI-baserade funktioner
+ovanpå träningsdatan, exempelvis för att upptäcka mönster eller ge
+rekommendationer.
 
 ### Koppling till projektet
 
